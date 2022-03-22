@@ -1,0 +1,131 @@
+/* css default */
+*{
+    margin:0px;
+    padding:0px;
+}
+/* Logo section */
+.left{
+  line-height:5px;
+  font-size:19px;
+  display:inline-block;
+  /* border:3px solid aqua; */
+  position: absolute;
+  top: 4px;
+  left:09px;
+  margin: 6px auto;
+}
+.left img{
+  width:83px;
+  /* filter:invert(100%); */
+  filter:brightness(125%);
+}
+.left p{
+color:white;
+  text-align:center;
+  margin:6px;
+  font-family:'Rubik', sans-serif;
+}
+.left p:hover{
+  cursor:crosshair;
+}
+ /* Navigation Bar */
+  .navbar{
+    color:white;
+    margin:0px;
+    display:inline-block;
+}
+.navbar li{
+    font-family:'Baloo Bhai 2', cursive;
+    display:inline-block;
+    font-size: 25px;
+    /* color:white; */
+    
+}
+.navbar li a{
+    color:white;
+    text-decoration: none;
+    /* padding: 38px 13px; */
+    padding:0px 5px;
+}
+.navbar li a:hover,  .navbar li a.active{
+    text-decoration: underline;
+    color:grey;
+    cursor:pointer;
+}
+.mid{
+    display:block;
+    margin:35px auto;
+    width:40%;
+    /* border: 3px solid green; */
+    top:22px;
+}
+
+.right{
+    margin:6px auto;
+    display:inline-block;
+    position: absolute;
+    right:5px;
+   top:28px;
+    /* border:3px solid red; */
+}
+.btn {
+    margin:0px 13px;
+    border:3px solid grey;
+background-color: black;
+color:white;
+padding: 2px 17px;
+border-radius:10px;
+cursor:pointer;
+font-family:'Baloo Bhai 2', cursive;
+}
+.btn:hover{
+    background-color: rgba(73, 71, 71, 0.664);
+}
+body{
+            /* color:white; */
+            margin: 0px;
+            padding:0px;
+            /* background-size: 100%; --> when we use background-image*/
+            background-color:black;
+           background:url("../img/fitness.jpg");
+           background-size:cover;
+            /* height: 550px; */
+            background-repeat: no-repeat;
+            /* width: 444px; */
+        }
+body::before{
+    content: "";
+    z-index:-1;
+ /* /   background-image: url('img/fitness.jpg'); */
+}
+      
+        .container h1{
+            color:rgba(255, 255, 255, 0.83);
+            text-align:center;
+        }
+
+    .container{
+        margin:75px auto;
+        padding:52px;
+        /* border-radius:3px; */
+        /* border:4px solid green; */
+        width:37%;
+    }
+    .game input{
+        text-align:center;
+        margin: 3px auto;
+        display:block;
+        width:300px;
+        border-radius:15px;
+        padding:3px auto;
+        font-size:20px;
+        font-family:"Baloo Bhai 2", cursive;
+
+    }
+    .container button{
+        display:block;
+        width:33%;
+        margin:auto;
+        /* padding:auto; */
+
+    }
